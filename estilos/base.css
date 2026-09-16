@@ -24,7 +24,7 @@ header {
 h1 {
     font-family: "Playfair", serif;
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     padding: 30px;
     grid-column: 1 /3;
     color: var(--cor-principal);
@@ -33,7 +33,7 @@ h1 {
 h2 {
     font-family: "Playfair", serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 900;
     color: var(--cor-principal);
     border-bottom: 2px solid;
@@ -56,7 +56,7 @@ footer {
     font-family: "Plus Jakarta Sans", sans-serif;
     background-color: var(--cor-principal);
     color: var(--cor-texto-destaque);
-    font-size: 1.2em;
+    font-size: 1.2rem;
     height: 100px;
     width: 100%;
     bottom: 0;
@@ -67,7 +67,7 @@ footer {
     color: var(--cor-texto-destaque);
     font-family: "Playfair", serif;
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     padding: 20px;
 
 }
@@ -88,7 +88,7 @@ footer {
 .navigation a {
     display: block;
     color: var(--cor-principal);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -110,7 +110,7 @@ footer {
 .card-titulo {
     padding: 20px;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     font-weight: bold;
     background-color: var(--cor-fundo-titulo);
     border-top-left-radius: 10px;
@@ -127,7 +127,7 @@ footer {
 }
 
 .content {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     padding: 30px 25px;
 }
 
@@ -162,7 +162,7 @@ footer {
 .navigation-card {
     padding: 0;
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 .navigation-card li {
