@@ -1,14 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="Página inicial de Ângelo César Luz Barbosa do curso: WDD 131 – Fundamentos da Web Dinâmica">
+    <meta name="author" content="Ângelo Barbosa">
+    <title>WDD 131 – Fundamentos da Web Dinâmica - Ângelo César Luz Barbosa</title>
+    <link rel="stylesheet" href="estilos/base.css">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/obterdatas.js" defer></script>
 </head>
 
 <body>
-    <h1>Ângelo Barbosa</h1>
+    <header>
+        <span id="titulo-curso">WDD 131: Fundamentos da Web Dinâmica</span>
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/in/barbosa-angelo" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=por&id=p7#p7"
+                        target="_blank">Escritura</a>
+                </li>
+                <li><a href="#">Projeto Final</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <main>
+
+            <h1>Ângelo César Luz Barbosa</h1>
+            <section class="card">
+                <p class="card-titulo">Sobre Mim</p>
+                <div class="sobre">
+                    <div class="sobre-pessoal">
+                        <p class="content">Olá! Meu nome é Ângelo Barbosa, sou de Belém-PA, Brasil, sou
+                            casado, e
+                            tenho 2 filhos. Eu
+                            gosto muito de passar tempo em família,
+                            assistindo filmes e séries, gosto também de jogos de tabuleiro e viajar. Gosto
+                            muito de ler e de praticar esportes, principalmente volei. Sou membro de A Igreja de
+                            Jesus Cristo dos Santos dos Últimos Dias desde 1991. Sou
+                            estudante da BYU-Pathway
+                            no Curso de Bacharelado em Desenvolvimento de Softwares. Já tenho mais de 20 anos de
+                            experiência em desenvovimento de softwares, mas ainda não possuo uma formação
+                            acadêmica, estou empolgado para aprender mais sobre desenvolvimento web.</p>
+                        <h2>Belém-PA, Brasil</h2>
+                        <div class="sobre-cidade">
+                            <img src="imagens/belem-pa.jpg" alt="Belém capital do estado do Pará">
+                            <p class="content">Belém, capital do estado de Pará, é uma cidade portuária e a porta de
+                                entrada
+                                para a região do Baixo Amazonas do Brasil. Junto à Baía do Guajará, o bairro da
+                                Cidade
+                                Velha
+                                à
+                                beira-rio preserva a arquitetura colonial portuguesa, das igrejas e casas com
+                                azulejos
+                                coloridos
+                                a uma fortificação do século XVII conhecida como Forte do Castelo. Ver-o-Peso é um
+                                amplo
+                                mercado
+                                ao ar livre junto à água, onde se vende peixe, fruta e artesanato da Amazónia.</p>
+                        </div>
+                    </div>
+                    <img src="imagens/angelo-barbosa.jpg" alt="Ângelo Barbosa">
+                </div>
+
+            </section>
+            <section class="card">
+                <p class="card-titulo">Recursos Web Dev</p>
+                <div class="card-flex">
+                    <ul class="navigation-card">
+                        <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                        <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                        <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer>
+        <p>&copy;<span id="anoatual"></span> 💻 Ângelo César Luz Barbosa 💻 Brasil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+
 </body>
 
 </html>
