@@ -1,0 +1,17 @@
+@media screen and (min-width: 805px) {
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+        color: var(--cor-texto-destaque);
+        font-size: 1.2em;
+    }
+
+}
