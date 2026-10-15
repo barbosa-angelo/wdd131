@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaliação do Produto</title>
-    <meta name="description" content="Página com um formulário de avaliação de produto">
+    <meta name="description" content="Página com um formulário de avaliação dos produtos">
     <meta name="author" content="Ângelo Barbosa">
     <link rel="stylesheet" href="estilos/formulario.css">
     <script src="scripts/formulario.js" defer></script>
@@ -25,8 +25,8 @@
 
             <div id="subtitulo">Classificação Geral</div>
             <div class="opcoes">
-                <label class="radio-vertical">☆<br><input type="radio" name="classificacao" id="umaEstrela"
-                        value="1"></label>
+                <label class="radio-vertical">☆<br><input type="radio" name="classificacao" id="umaEstrela" value="1"
+                        required></label>
                 <label class="radio-vertical">☆☆<br><input type="radio" name="classificacao" id="duasEstrelas" value="2"
                         required></label>
                 <label class="radio-vertical">☆☆☆<br><input type="radio" name="classificacao" id="tresEstrelas"
@@ -46,8 +46,9 @@
             <label><input type="checkbox" name="durabilidade" value="sim">Durabilidade</label>
             <label><input type="checkbox" name="usabilidade" value="sim">Facilidade de Uso</label>
 
-            <label>Avaliação Escrita <span>(opcional)</span> <input type="textarea" id="avaliacao"
-                    name="avaliacao"></label>
+            <label>Avaliação Escrita <span>(opcional)</span> <textarea id="avaliacaoDescritiva"
+                    name="avaliacaoDescritiva"></textarea>
+            </label>
 
             <label>Seu Nome <span>(opcional)</span> <input type="text" id="nome" name="nome"></label>
 
