@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação do Produto</title>
+    <meta name="description" content="Página com um formulário de avaliação de produto">
+    <meta name="author" content="Ângelo Barbosa">
+    <link rel="stylesheet" href="estilos/formulario.css">
+    <script src="scripts/formulario.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Avaliação do Produto</h1>
+    </header>
+    <main>
+        <form method="get" action="avaliacao.html" class="formulario">
+            <label>Nome do Produto
+                <select id="produto" name="produto" required>
+                    <option value="" disabled selected>Selecione um Produto ...</option>
+                </select>
+            </label>
+
+            <div id="subtitulo">Classificação Geral</div>
+            <div class="opcoes">
+                <label class="radio-vertical">☆<br><input type="radio" name="classificacao" id="umaEstrela"
+                        value="1"></label>
+                <label class="radio-vertical">☆☆<br><input type="radio" name="classificacao" id="duasEstrelas" value="2"
+                        required></label>
+                <label class="radio-vertical">☆☆☆<br><input type="radio" name="classificacao" id="tresEstrelas"
+                        value="3" required></label>
+                <label class="radio-vertical">☆☆☆☆<br><input type="radio" name="classificacao" id="quatroEstrelas"
+                        value="4" required></label>
+                <label class="radio-vertical">☆☆☆☆☆<br><input type="radio" name="classificacao" id="cincoEstrelas"
+                        value="5" required></label>
+            </div>
+
+            <label>Data de Instalação<input type="date" id="data" name="data" required></label>
+
+            <div>Quais recursos você achou úteis no produto?</div>
+            <p>(Marque todos que se aplicam)</p>
+            <label id="primeiro"><input type="checkbox" name="desempenho" value="sim">Desempenho</label>
+            <label><input type="checkbox" name="design" value="sim">Design</label>
+            <label><input type="checkbox" name="durabilidade" value="sim">Durabilidade</label>
+            <label><input type="checkbox" name="usabilidade" value="sim">Facilidade de Uso</label>
+
+            <label>Avaliação Escrita <span>(opcional)</span> <input type="textarea" id="avaliacao"
+                    name="avaliacao"></label>
+
+            <label>Seu Nome <span>(opcional)</span> <input type="text" id="nome" name="nome"></label>
+
+            <input type="submit" value="Publicar Avaliação">
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="anoatual"></span> 💻 Ângelo César Luz Barbosa 💻 Brasil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+</body>
+
+</html>
