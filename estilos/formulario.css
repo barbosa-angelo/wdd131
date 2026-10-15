@@ -12,8 +12,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* max-width: 400px;
-    margin: 0 auto; */
 }
 
 header {
@@ -30,7 +28,6 @@ h1 {
 
 main {
     padding: 20px 0;
-    /* max-width: 400px; */
 }
 
 footer {
